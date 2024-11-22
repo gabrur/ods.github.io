@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.politicas{
+    margin: 30px;
+    top: 100px;
+    margin-bottom: 50px;
+}
+li{
+    margin-left: 60px;
+}
+.caixapol {
+    background-color: #e7e6e6e8; 
+    border-radius: 10px; 
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto; 
+    max-width: 850px; 
+    font-family: Arial, sans-serif; 
+}
+@media (max-width: 880px){
+    .caixapol{
+        max-width: 600px;
+    }
+}
+@media (max-width: 640px){
+    .caixapol{
+        max-width: 450px;
+    }
+}
+@media (max-width: 470px){
+    .caixapol{
+        max-width: 350px;
+    }
+}
+.politicas h2, .politicas h3 {
+    color: #333;
+    margin-bottom: 15px; 
+}
+
+.politicas p, .politicas li {
+    color: #555; 
+    line-height: 1.6; 
+}
+.politicas a {
+    color: #0066cc; 
+    text-decoration: none;
+}
+
+.politicas a:hover {
+    text-decoration: underline; 
+}
